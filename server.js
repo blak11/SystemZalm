@@ -5,6 +5,7 @@ const client = new Discord.Client();
 const Prefix = "";
 const fetch = require("node-fetch");
 
+
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.db = require("quick.db");
